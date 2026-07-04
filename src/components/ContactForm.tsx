@@ -8,14 +8,40 @@ export default function ContactForm() {
   const [service, setService] = useState("Web Development");
   const [message, setMessage] = useState("");
   const [successMsg, setSuccessMsg] = useState("");
+  const [errorMsg, setErrorMsg] = useState("");
+  const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSuccessMsg("Thanks — we'll be in touch within a day.");
-    setName("");
-    setEmail("");
-    setService("Web Development");
-    setMessage("");
+    setLoading(true);
+    setSuccessMsg("");
+    setErrorMsg("");
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name, email, service, message }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok && data.success) {
+        setSuccessMsg(data.message || "Thanks — we'll be in touch within a day.");
+        setName("");
+        setEmail("");
+        setService("Web Development");
+        setMessage("");
+      } else {
+        setErrorMsg(data.error || "Something went wrong. Please try again.");
+      }
+    } catch (err: any) {
+      setErrorMsg("Network error. Please check your connection and try again.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -69,12 +95,26 @@ export default function ContactForm() {
           onChange={(e) => setMessage(e.target.value)}
         ></textarea>
       </div>
-      <button type="submit" className="btn-primary" style={{ width: "100%", justifyContent: "center" }}>
-        Send message →
+      <button
+        type="submit"
+        className="btn-primary"
+        style={{ width: "100%", justifyContent: "center" }}
+        disabled={loading}
+      >
+        {loading ? "Sending inquiry..." : "Send message →"}
       </button>
-      <p className="form-msg" style={{ marginTop: "14px", fontFamily: "IBM Plex Mono", fontSize: "13px", color: "var(--gold)", minHeight: "16px" }}>
-        {successMsg}
-      </p>
+      
+      {successMsg && (
+        <p className="form-msg" style={{ marginTop: "14px", fontFamily: "IBM Plex Mono", fontSize: "13px", color: "var(--gold)", minHeight: "16px" }}>
+          {successMsg}
+        </p>
+      )}
+      
+      {errorMsg && (
+        <p className="form-msg" style={{ marginTop: "14px", fontFamily: "IBM Plex Mono", fontSize: "13px", color: "var(--amber-hot)", minHeight: "16px" }}>
+          {errorMsg}
+        </p>
+      )}
     </form>
   );
 }
