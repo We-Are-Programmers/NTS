@@ -15,13 +15,11 @@ export default function About() {
         <ScrollReveal>
           <p className="eyebrow">About the studio</p>
           <h1>
-            <span className="tech">Built by people who</span>{" "}
+            <span className="tech">Built by people who</span>{" "} 
             <span className="soul">still write the code.</span>
           </h1>
           <p className="sub">
-            Next Tech Soul started as a small team of developers and designers tired
-            of watching good ideas get lost in slow, over-engineered agencies. We
-            kept it lean on purpose.
+            Next Tech Soul started as a small team of developers and designers who believe great ideas deserve fast, clean, and thoughtful execution. We focus on keeping things simple, efficient, and purposeful — without unnecessary complexity.
           </p>
         </ScrollReveal>
       </section>
@@ -37,7 +35,7 @@ export default function About() {
                 fontSize: "clamp(1.7rem, 3vw, 2.2rem)",
               }}
             >
-              Tech built the walls. <span className="soul">Soul made it home.</span>
+              Technology built the structure <span className="soul">Soul made it meaningful.</span>
             </h2>
             <p style={{ color: "var(--muted)", marginTop: "18px" }}>
               Next Tech Soul is a full-stack digital studio — web development, app
@@ -61,7 +59,7 @@ export default function About() {
               <div className="value-item">
                 <span className="dot"></span>
                 <div>
-                  <h3>Straight communication</h3>
+                  <h3>Clear Communication</h3>
                   <p>Clear timelines, honest estimates, and no disappearing after the invoice.</p>
                 </div>
               </div>
@@ -88,7 +86,7 @@ export default function About() {
         <div className="stats-grid">
           <ScrollReveal className="stat glass">
             <div className="figure">40+</div>
-            <div className="label">Projects shipped</div>
+            <div className="label">Successfully Delivered Projects</div>
           </ScrollReveal>
           <ScrollReveal className="stat glass">
             <div className="figure">6</div>
@@ -108,9 +106,9 @@ export default function About() {
       {/* TIMELINE */}
       <section className="wrap">
         <ScrollReveal className="section-head">
-          <p className="eyebrow">How we got here</p>
+          <p className="eyebrow">Our Journey</p>
           <h2>
-            A studio built one <span className="soul">project at a time.</span>
+            A studio built one project at a time, <span className="soul">with purpose and precision.</span>
           </h2>
         </ScrollReveal>
         <div className="timeline">
@@ -164,9 +162,9 @@ export default function About() {
             Work with us
           </p>
           <h2>
-            Have a project in <span className="soul">mind?</span>
+            Have a project in <span className="soul">mind ?</span>
           </h2>
-          <p>Let's talk about what you're building and how we can help.</p>
+          <p>Let’s discuss your idea and how we can turn it into a powerful digital product.</p>
           <Link href="/contact" className="btn-primary">
             Get in touch →
           </Link>
