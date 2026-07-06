@@ -15,12 +15,11 @@ export default function Contact() {
         <ScrollReveal>
           <p className="eyebrow">Get in touch</p>
           <h1>
-            <span className="tech">Tell us what</span>{" "}
-            <span className="soul">you're building.</span>
+            <span className="tech">Tell us about</span>{" "}
+            <span className="soul">you're project.</span>
           </h1>
           <p className="sub">
-            Share a few details and we'll reply with next steps within one business
-            day.
+            Share a few details and we'll reply with next steps within 24 hours.
           </p>
         </ScrollReveal>
       </section>
@@ -60,7 +59,7 @@ export default function Contact() {
       {/* FAQ */}
       <section className="wrap">
         <ScrollReveal className="section-head">
-          <p className="eyebrow">Before you write in</p>
+          <p className="eyebrow">Before You Reach Out </p>
           <h2>
             A few things people <span className="soul">usually ask.</span>
           </h2>
