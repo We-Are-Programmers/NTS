@@ -17,12 +17,11 @@ export default function Services() {
           <p className="eyebrow">What we do</p>
           <h1>
             <span className="tech">Six services.</span>{" "}
-            <span className="soul">One accountable team.</span>
+            <span className="soul"> One unified team.</span>
           </h1>
           <p className="sub">
-            Every service below is delivered by the same core team, so your site,
-            your brand and your rankings are always working from the same playbook.
-          </p>
+            Every service is handled by a single core team, ensuring your website, brand, and growth strategy stay perfectly aligned.
+           </p>
         </ScrollReveal>
       </section>
 
@@ -41,29 +40,27 @@ export default function Services() {
           <span>App Development</span>
           <span>WordPress</span>
           <span>Shopify</span>
+          <span>Ai Solutons</span>
+          <span>Digital Marketing</span>
+          <span>Video Editing</span>
         </div>
       </div>
 
       {/* SERVICES DETAIL */}
       <section className="wrap">
         <div className="services-grid">
+
           <ScrollReveal>
             <TiltCard>
               <span className="tag">01</span>
               <div className="icon">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.6"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M4 6h16M4 6v12a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V6M4 6l1-2h14l1 2M9 21v-6h6v6" />
-                </svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+  <polyline points="16 18 22 12 16 6" />
+  <polyline points="8 6 2 12 8 18" />
+</svg>
               </div>
               <h3>Web Development</h3>
-              <p>Custom-coded sites and web apps built for speed and built to scale.</p>
+              <p>Fast, scalable, and performance-focused websites and web applications built from scratch.</p>
               <ul className="includes">
                 <li>Marketing &amp; business sites</li>
                 <li>Custom web applications</li>
@@ -77,24 +74,21 @@ export default function Services() {
             <TiltCard>
               <span className="tag">02</span>
               <div className="icon">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.6"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M4 16l4.5-6 3.5 4 3-3.5L20 16M4 4h16v16H4z" />
-                </svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+  <path d="M12 3C7 3 3 6 3 10c0 4 4 7 9 7h1c1.5 0 3 1 3 2.5S15.5 22 14 22c-2 0-3-1-3-3" />
+  <circle cx="7.5" cy="10" r="1" />
+  <circle cx="12" cy="7" r="1" />
+  <circle cx="16.5" cy="10" r="1" />
+</svg>
               </div>
               <h3>Graphic Design</h3>
-              <p>Visual identity that reads as unmistakably yours, not a template.</p>
+              <p>Distinctive visual identities that go beyond templates and reflect your brand personality.</p>
               <ul className="includes">
                 <li>Logo &amp; brand identity</li>
                 <li>Social media creatives</li>
                 <li>Print &amp; packaging design</li>
                 <li>Pitch decks &amp; brand guidelines</li>
+                <li>UI/UX Design for Web & Apps</li>
               </ul>
             </TiltCard>
           </ScrollReveal>
@@ -103,47 +97,102 @@ export default function Services() {
             <TiltCard>
               <span className="tag">03</span>
               <div className="icon">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.6"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <circle cx="11" cy="11" r="7" />
-                  <path d="M21 21l-4.3-4.3" />
-                </svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+  <circle cx="11" cy="11" r="7" />
+  <path d="M21 21l-4.3-4.3" />
+</svg>
               </div>
               <h3>SEO</h3>
-              <p>Technical and content work that moves you up the results page.</p>
+              <p>Data-driven SEO strategies that improve visibility, rankings, and organic traffic.</p>
               <ul className="includes">
-                <li>Technical SEO audits</li>
-                <li>On-page &amp; content strategy</li>
-                <li>Local &amp; e-commerce SEO</li>
-                <li>Monthly rank &amp; traffic reports</li>
+                  <li>Technical SEO audits</li>
+                  <li>On-page &amp; content strategy</li>
+                  <li>Local &amp; e-commerce SEO</li>
+                  <li>Monthly rank &amp; traffic reports</li>
+                  <li>Website Speed & Performance Optimization</li>
               </ul>
             </TiltCard>
           </ScrollReveal>
 
-          <ScrollReveal>
+
+        <ScrollReveal>
             <TiltCard>
               <span className="tag">04</span>
               <div className="icon">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.6"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <rect x="7" y="2" width="10" height="20" rx="2" />
-                  <path d="M11 18h2" />
-                </svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+  <path d="M9 3a3 3 0 0 0-3 3v1a3 3 0 0 0-2 3v4a3 3 0 0 0 2 3v1a3 3 0 0 0 3 3" />
+  <path d="M15 3a3 3 0 0 1 3 3v1a3 3 0 0 1 2 3v4a3 3 0 0 1-2 3v1a3 3 0 0 1-3 3" />
+  <path d="M12 8v8" />
+</svg>
+              </div>
+              <h3>AI Solutions</h3>
+              <p>AI-powered solutions that automate workflows, improve efficiency, and enhance customer experience using modern intelligent technologies.</p>
+              <ul className="includes">
+                <li>AI Chatbots & Assistants</li>
+                <li>Workflow Automation</li>
+                <li>Data Analysis & Insights</li>
+                <li>AI Integration for Websites & Apps</li>
+              </ul>
+            </TiltCard>
+          </ScrollReveal>
+
+
+          <ScrollReveal>
+            <TiltCard>
+              <span className="tag">05</span>
+              <div className="icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+  <polyline points="3 17 9 11 13 15 21 7" />
+  <polyline points="21 7 21 13" />
+</svg>
+              </div>
+              <h3>Digital Marketing</h3>
+              <p>Result-driven digital marketing strategies that help businesses grow their online presence, attract customers, and increase revenue.</p>
+              <ul className="includes">
+                <li>Social Media Marketing</li>
+                <li>Paid Ads (Google & Meta)</li>
+                <li>Content Marketing Strategy</li>
+                <li>Brand Awareness Campaigns</li>
+                <li>SEO Optimization & Ranking Growth</li>
+              </ul>
+            </TiltCard>
+          </ScrollReveal>
+
+
+          <ScrollReveal>
+            <TiltCard>
+              <span className="tag">06</span>
+              <div className="icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+  <rect x="3" y="5" width="18" height="14" rx="2" />
+  <path d="M3 10h18" />
+  <path d="M7 5l2 5" />
+  <path d="M11 5l2 5" />
+</svg>
+              </div>
+              <h3>Editing & Post-Production</h3>
+              <p>Professional editing services for visuals and content that refine your brand message, improve quality, and create a polished final output.</p>
+              <ul className="includes">
+                <li>Video Editing & Reels</li>
+                <li>Photo Retouching & Enhancement</li>
+                <li>Social Media Content Editing</li>
+                <li>Brand Promotional Edits</li>
+              </ul>
+            </TiltCard>
+          </ScrollReveal>
+
+
+          <ScrollReveal>
+            <TiltCard>
+              <span className="tag">07</span>
+              <div className="icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+  <rect x="7" y="2" width="10" height="20" rx="2" />
+  <line x1="12" y1="18" x2="12" y2="18" />
+</svg>
               </div>
               <h3>App Development</h3>
-              <p>Native and cross-platform apps, wireframe to app-store listing.</p>
+              <p>High-performance mobile applications for iOS and Android with seamless user experience.</p>
               <ul className="includes">
                 <li>iOS &amp; Android apps</li>
                 <li>Cross-platform (React Native)</li>
@@ -155,22 +204,17 @@ export default function Services() {
 
           <ScrollReveal>
             <TiltCard>
-              <span className="tag">05</span>
+              <span className="tag">08</span>
               <div className="icon">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.6"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <circle cx="12" cy="12" r="9" />
-                  <path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3z" />
-                </svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+  <circle cx="12" cy="12" r="10" />
+  <path d="M2 12h20" />
+  <path d="M12 2a15 15 0 0 1 0 20" />
+  <path d="M12 2a15 15 0 0 0 0 20" />
+</svg>
               </div>
               <h3>WordPress</h3>
-              <p>Theme builds, migrations and WooCommerce work, done cleanly.</p>
+              <p>Clean, scalable WordPress solutions including custom themes and WooCommerce stores.</p>
               <ul className="includes">
                 <li>Custom theme &amp; Elementor builds</li>
                 <li>Hosting migration &amp; setup</li>
@@ -182,29 +226,28 @@ export default function Services() {
 
           <ScrollReveal>
             <TiltCard>
-              <span className="tag">06</span>
+              <span className="tag">09</span>
               <div className="icon">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.6"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M6 2l1.5 4h9L18 2M3 7h18l-1.5 13a2 2 0 0 1-2 2H6.5a2 2 0 0 1-2-2L3 7z" />
-                </svg>
-              </div>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+  <path d="M6 2l-2 6h16l-2-6" />
+  <path d="M4 8v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8" />
+  <path d="M9 12h6" />
+</svg>
+             </div>
               <h3>Shopify</h3>
-              <p>Storefronts and checkout tuning built to convert visitors.</p>
+              <p>Conversion-focused online stores designed to maximize sales and customer experience.</p>
               <ul className="includes">
                 <li>Custom storefront design</li>
                 <li>Product &amp; catalog migration</li>
                 <li>Checkout &amp; conversion tuning</li>
                 <li>App &amp; integration setup</li>
+                <li>Conversion & Speed Optimization</li>
               </ul>
             </TiltCard>
           </ScrollReveal>
+
+          
+
         </div>
       </section>
 
@@ -213,29 +256,29 @@ export default function Services() {
         <ScrollReveal className="section-head">
           <p className="eyebrow">How we work</p>
           <h2>
-            Same process, <span className="soul">every service.</span>
+            One process for <span className="soul">every service.</span>
           </h2>
         </ScrollReveal>
         <div className="process">
           <ScrollReveal className="step">
             <div className="num">01</div>
             <h3>Discover</h3>
-            <p>Goals, audience and scope, agreed before we start.</p>
+            <p>We understand your goals, target audience, and competitors to build a strong foundation.</p>
           </ScrollReveal>
           <ScrollReveal className="step">
             <div className="num">02</div>
             <h3>Design</h3>
-            <p>Direction and structure, reviewed together.</p>
+            <p>We create wireframes and UI designs that match your vision and brand identity.</p>
           </ScrollReveal>
           <ScrollReveal className="step">
             <div className="num">03</div>
             <h3>Build</h3>
-            <p>Development with staging links to track progress.</p>
+            <p>We turn designs into a fully functional, fast, and scalable product with clean code.</p>
           </ScrollReveal>
           <ScrollReveal className="step">
             <div className="num">04</div>
             <h3>Launch</h3>
-            <p>Go live, then a window of post-launch support.</p>
+            <p>We deploy your project and provide post-launch support to ensure everything runs smoothly.</p>
           </ScrollReveal>
         </div>
       </section>
@@ -247,7 +290,7 @@ export default function Services() {
             Not sure where to start?
           </p>
           <h2>
-            Tell us the problem, <span className="soul">not the service.</span>
+            Tell us the problem, <span className="soul">not the solution.</span>
           </h2>
           <p>We'll help you figure out which service actually solves it.</p>
           <Link href="/contact" className="btn-primary">
