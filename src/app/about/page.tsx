@@ -19,7 +19,7 @@ export default function About() {
             <span className="soul">still write the code.</span>
           </h1>
           <p className="sub">
-            Next Tech Soul started as a small team of developers and designers who believe great ideas deserve fast, clean, and thoughtful execution. We focus on keeping things simple, efficient, and purposeful — without unnecessary complexity.
+            Next Tech Soul started as a small team of developers and designers who believe great ideas deserve fast, clean, and thoughtful execution. We focus on keeping things simple, efficient, and purposeful  without unnecessary complexity.
           </p>
         </ScrollReveal>
       </section>
@@ -38,7 +38,7 @@ export default function About() {
               Technology built the structure <span className="soul">Soul made it meaningful.</span>
             </h2>
             <p style={{ color: "var(--muted)", marginTop: "18px" }}>
-              Next Tech Soul is a full-stack digital studio — web development, app
+              Next Tech Soul is a full-stack digital studio  web development, app
               development, graphic design and SEO under one roof. We work with
               founders, small teams and growing brands who need a partner that can
               move fast without cutting corners.
@@ -98,7 +98,7 @@ export default function About() {
           </ScrollReveal>
           <ScrollReveal className="stat glass">
             <div className="figure">100%</div>
-            <div className="label">Remote-friendly</div>
+            <div className="label">Remote friendly</div>
           </ScrollReveal>
         </div>
       </section>
@@ -148,7 +148,7 @@ export default function About() {
               <h3>Today</h3>
               <p>
                 A small, senior team taking on a deliberately limited number of
-                projects at a time — so quality never slips.
+                projects at a time  so quality never slips.
               </p>
             </div>
           </ScrollReveal>
