@@ -280,6 +280,7 @@ footer{ padding: 50px 0 40px; border-top:1px solid var(--border); }
   .stats-grid{ grid-template-columns: repeat(2,1fr); }
   .contact-grid{ grid-template-columns: 1fr; }
   nav.main-nav{ display:none; }
+  .navbar .nav-cta{ display:none; }
   .nav-toggle{ display:flex; }
   .mobile-nav{ display:flex; }
 }
