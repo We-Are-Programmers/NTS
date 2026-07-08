@@ -33,16 +33,16 @@ export default function Contact() {
               <div className="value">hello@nexttechsoul.com</div>
             </div>
             <div className="item">
-              <div className="label">Phone / WhatsApp</div>
-              <div className="value">+92 3XX XXXXXXX</div>
+              <div className="label">Phone or WhatsApp</div>
+              <div className="value">+92 3112933137</div>
             </div>
             <div className="item">
               <div className="label">Studio</div>
-              <div className="value">Karachi, Pakistan — remote-first</div>
+              <div className="value">Karachi, Pakistan — remote first</div>
             </div>
             <div className="item">
               <div className="label">Working hours</div>
-              <div className="value">Mon – Sat, 10am – 7pm PKT</div>
+              <div className="value">Mon to  Sat , 09am to 09pm PKT</div>
             </div>
             <div className="item">
               <div className="label">Response time</div>
@@ -75,21 +75,21 @@ export default function Contact() {
           <div className="faq-item">
             <h3>Do you work with clients outside Pakistan?</h3>
             <p>
-              Yes — we're remote-first and work across time zones with async
+              Yes we're remote first and work across time zones with async
               updates and scheduled calls.
             </p>
           </div>
           <div className="faq-item">
             <h3>Can you take over an existing site?</h3>
             <p>
-              Yes, including WordPress/WooCommerce and Shopify stores already
+              Yes including WordPress/WooCommerce and Shopify stores already
               built by another developer.
             </p>
           </div>
           <div className="faq-item">
             <h3>Do you offer ongoing support after launch?</h3>
             <p>
-              Yes — monthly maintenance plans are available for updates, backups
+              Yes monthly maintenance plans are available for updates, backups
               and small changes.
             </p>
           </div>
