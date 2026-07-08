@@ -31,7 +31,7 @@ export default function Home() {
         <div className="hero-glass glass">
           <div className="ring r1"></div>
           <div className="ring r2"></div>
-          <img src="/assets/logo.webp" alt="Next Tech Soul mark" />
+          <img src="/assets/logo.png" alt="Next Tech Soul mark" />
         </div>
       </section>
 
@@ -94,7 +94,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3>Ai Solutions</h3>
-              <p> AI-powered solutions that automate workflows, improve efficiency, and enhance user experience using smart technologies.</p>
+              <p> AI powered solutions that automate workflows, improve efficiency, and enhance user experience using smart technologies.</p>
             </TiltCard>
           </ScrollReveal>
 
@@ -145,7 +145,7 @@ export default function Home() {
 </svg>
               </div>
               <h3>App Development</h3>
-              <p>Developing high-performance Android and iOS applications that deliver seamless user experiences.</p>
+              <p>Developing high performance Android and iOS applications that deliver seamless user experiences.</p>
             </TiltCard>
           </ScrollReveal>
 
@@ -160,7 +160,7 @@ export default function Home() {
               </svg>
               </div>
               <h3>Digital Marketing</h3>
-              <p>Result-driven digital marketing strategies that help businesses grow their online presence, attract customers, and increase revenue.</p>
+              <p>Result driven digital marketing strategies that help businesses grow their online presence, attract customers, and increase revenue.</p>
             </TiltCard>
           </ScrollReveal>
 
@@ -194,7 +194,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3>WordPress</h3>
-              <p>Custom WordPress websites designed for speed, security, and easy management. We build responsive, SEO-friendly, and scalable solutions tailored to your business needs.</p>
+              <p>Custom WordPress websites designed for speed, security, and easy management. We build responsive, SEO friendly, and scalable solutions tailored to your business needs.</p>
             </TiltCard>
           </ScrollReveal>
 
@@ -209,7 +209,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3>Shopify</h3>
-              <p>We build high-converting Shopify stores with modern designs, optimized performance, secure payment integration, and seamless shopping experiences to help your online business grow.</p>
+              <p>We build high converting Shopify stores with modern designs, optimized performance, secure payment integration, and seamless shopping experiences to help your online business grow.</p>
             </TiltCard>
           </ScrollReveal>
 
@@ -257,7 +257,7 @@ export default function Home() {
             <div className="num">04</div>
             <h3>Launch</h3>
             <p>
-              We deploy your project and provide post-launch support to ensure everything runs smoothly.
+              We deploy your project and provide post launch support to ensure everything runs smoothly.
             </p>
           </ScrollReveal>
         </div>
