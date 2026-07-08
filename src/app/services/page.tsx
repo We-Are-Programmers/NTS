@@ -60,7 +60,7 @@ export default function Services() {
 </svg>
               </div>
               <h3>Web Development</h3>
-              <p>Fast, scalable, and performance-focused websites and web applications built from scratch.</p>
+              <p>Fast, scalable, and performance focused websites and web applications built from scratch.</p>
               <ul className="includes">
                 <li>Marketing &amp; business sites</li>
                 <li>Custom web applications</li>
@@ -103,7 +103,7 @@ export default function Services() {
 </svg>
               </div>
               <h3>SEO</h3>
-              <p>Data-driven SEO strategies that improve visibility, rankings, and organic traffic.</p>
+              <p>Data driven SEO strategies that improve visibility, rankings, and organic traffic.</p>
               <ul className="includes">
                   <li>Technical SEO audits</li>
                   <li>On-page &amp; content strategy</li>
@@ -126,7 +126,7 @@ export default function Services() {
 </svg>
               </div>
               <h3>AI Solutions</h3>
-              <p>AI-powered solutions that automate workflows, improve efficiency, and enhance customer experience using modern intelligent technologies.</p>
+              <p>AI powered solutions that automate workflows, improve efficiency, and enhance customer experience using modern intelligent technologies.</p>
               <ul className="includes">
                 <li>AI Chatbots & Assistants</li>
                 <li>Workflow Automation</li>
@@ -147,7 +147,7 @@ export default function Services() {
 </svg>
               </div>
               <h3>Digital Marketing</h3>
-              <p>Result-driven digital marketing strategies that help businesses grow their online presence, attract customers, and increase revenue.</p>
+              <p>Result driven digital marketing strategies that help businesses grow their online presence, attract customers, and increase revenue.</p>
               <ul className="includes">
                 <li>Social Media Marketing</li>
                 <li>Paid Ads (Google & Meta)</li>
@@ -170,11 +170,11 @@ export default function Services() {
   <path d="M11 5l2 5" />
 </svg>
               </div>
-              <h3>Editing & Post-Production</h3>
+              <h3>Editing & Post Production</h3>
               <p>Professional editing services for visuals and content that refine your brand message, improve quality, and create a polished final output.</p>
               <ul className="includes">
                 <li>Video Editing & Reels</li>
-                <li>Photo Retouching & Enhancement</li>
+                <li>Cash cow video editing</li>
                 <li>Social Media Content Editing</li>
                 <li>Brand Promotional Edits</li>
               </ul>
@@ -192,7 +192,7 @@ export default function Services() {
 </svg>
               </div>
               <h3>App Development</h3>
-              <p>High-performance mobile applications for iOS and Android with seamless user experience.</p>
+              <p>High performance mobile applications for iOS and Android with seamless user experience.</p>
               <ul className="includes">
                 <li>iOS &amp; Android apps</li>
                 <li>Cross-platform (React Native)</li>
@@ -235,7 +235,7 @@ export default function Services() {
 </svg>
              </div>
               <h3>Shopify</h3>
-              <p>Conversion-focused online stores designed to maximize sales and customer experience.</p>
+              <p>Conversion focused online stores designed to maximize sales and customer experience.</p>
               <ul className="includes">
                 <li>Custom storefront design</li>
                 <li>Product &amp; catalog migration</li>
@@ -278,7 +278,7 @@ export default function Services() {
           <ScrollReveal className="step">
             <div className="num">04</div>
             <h3>Launch</h3>
-            <p>We deploy your project and provide post-launch support to ensure everything runs smoothly.</p>
+            <p>We deploy your project and provide post launch support to ensure everything runs smoothly.</p>
           </ScrollReveal>
         </div>
       </section>
