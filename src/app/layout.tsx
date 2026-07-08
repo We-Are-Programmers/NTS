@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Next Tech Soul — Web, App & Growth Studio",
   description: "Next Tech Soul is a digital studio building web experiences, apps, graphics and growth systems — engineered like tech, finished like art.",
   icons: {
-    icon: "/assets/logo.png",
+    icon: "/assets/logo.webp",
   },
 };
 

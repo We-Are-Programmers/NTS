@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="wrap">
         <div className="foot-row">
           <div className="foot-brand">
-            <img src="/assets/logo.png" alt="Next Tech Soul" />
+            <img src="/assets/logo.webp" alt="Next Tech Soul" />
             <span className="tech" style={{ fontSize: "14px" }}>
               NEXT TECH <span className="soul" style={{ fontSize: "14px" }}>Soul</span>
             </span>

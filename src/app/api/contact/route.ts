@@ -44,7 +44,7 @@ export async function POST(req: NextRequest) {
 
     // Check if mail server settings are configured.
     // If not configured, we'll log a warning and return success so that the form works in demo mode.
-    const isSmtpConfigured = smtpHost && smtpPort && smtpUser && smtpPass && smtpPass !== "kuqlxszqcgwaousl";
+    const isSmtpConfigured = smtpHost && smtpPort && smtpUser && smtpPass && smtpPass !== "";
 
     if (!isSmtpConfigured) {
       console.warn("SMTP email credentials are not configured in env variables. Skipping email notifications.");
@@ -135,13 +135,17 @@ export async function POST(req: NextRequest) {
       `,
     };
 
-    // Send emails concurrently
-    await Promise.all([
+    // Send emails concurrently in the background (fire and forget to speed up response)
+    Promise.all([
       transporter.sendMail(clientMailOptions),
       transporter.sendMail(adminMailOptions),
-    ]);
-
-    console.log("Emails sent successfully to client and admin.");
+    ])
+      .then(() => {
+        console.log("Emails sent successfully to client and admin.");
+      })
+      .catch((err) => {
+        console.error("Background email sending failed:", err);
+      });
 
     return NextResponse.json({
       success: true,

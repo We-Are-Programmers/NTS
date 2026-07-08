@@ -31,7 +31,7 @@ export default function Home() {
         <div className="hero-glass glass">
           <div className="ring r1"></div>
           <div className="ring r2"></div>
-          <img src="/assets/logo.png" alt="Next Tech Soul mark" />
+          <img src="/assets/logo.webp" alt="Next Tech Soul mark" />
         </div>
       </section>
 
