@@ -28,7 +28,7 @@ export default function Header() {
       <div className="wrap">
         <div className="navbar glass">
           <Link href="/" className="brand" onClick={closeMenu}>
-            <img src="/assets/logo.png" alt="Next Tech Soul logo" />
+            <img src="/assets/logo.webp" alt="Next Tech Soul logo" />
             <span className="brand-word tech">
               NEXT TECH <span className="soul">Soul</span>
             </span>

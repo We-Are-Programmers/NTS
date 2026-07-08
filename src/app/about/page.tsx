@@ -76,7 +76,7 @@ export default function About() {
           <ScrollReveal className="about-media glass">
             <div className="ring r1"></div>
             <div className="ring r2"></div>
-            <img src="/assets/logo-large.png" alt="Next Tech Soul mark" />
+            <img src="/assets/logo-large.webp" alt="Next Tech Soul mark" />
           </ScrollReveal>
         </div>
       </section>
