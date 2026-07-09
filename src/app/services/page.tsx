@@ -129,9 +129,9 @@ export default function Services() {
               <p>AI powered solutions that automate workflows, improve efficiency, and enhance customer experience using modern intelligent technologies.</p>
               <ul className="includes">
                 <li>AI Chatbots & Assistants</li>
-                <li>Workflow Automation</li>
-                <li>Data Analysis & Insights</li>
+                <li>Process Automation</li>
                 <li>AI Integration for Websites & Apps</li>
+                <li>Business Intelligence</li>
               </ul>
             </TiltCard>
           </ScrollReveal>
@@ -170,7 +170,7 @@ export default function Services() {
   <path d="M11 5l2 5" />
 </svg>
               </div>
-              <h3>Editing & Post Production</h3>
+              <h3>Video Editing </h3>
               <p>Professional editing services for visuals and content that refine your brand message, improve quality, and create a polished final output.</p>
               <ul className="includes">
                 <li>Video Editing & Reels</li>
@@ -194,10 +194,10 @@ export default function Services() {
               <h3>App Development</h3>
               <p>High performance mobile applications for iOS and Android with seamless user experience.</p>
               <ul className="includes">
-                <li>iOS &amp; Android apps</li>
-                <li>Cross-platform (React Native)</li>
-                <li>App Store / Play Store launch</li>
-                <li>Post-launch support</li>
+                <li>Android & iOS Development</li>
+                <li>React Native</li>
+                <li>Cloud & API Integration</li>
+                <li>Secure & Scalable Solutions</li>
               </ul>
             </TiltCard>
           </ScrollReveal>

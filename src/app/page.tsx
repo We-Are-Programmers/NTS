@@ -31,7 +31,7 @@ export default function Home() {
         <div className="hero-glass glass">
           <div className="ring r1"></div>
           <div className="ring r2"></div>
-          <img src="/assets/logo.webp" alt="Next Tech Soul mark" />
+          <img src="/assets/logo.png" alt="Next Tech Soul mark" />
         </div>
       </section>
 
@@ -176,7 +176,7 @@ export default function Home() {
                  <path d="M11 5l2 5" />
                 </svg>
               </div>
-              <h3>Editing</h3>
+              <h3>Video Editing</h3>
               <p>Professional editing services for visuals and content that refine your brand message, improve quality, and create a polished final output.</p>
             </TiltCard>
           </ScrollReveal>
