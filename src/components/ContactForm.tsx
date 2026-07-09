@@ -63,7 +63,7 @@ export default function ContactForm() {
           <input
             id="email"
             type="email"
-            placeholder="you@company.com"
+            placeholder="Your Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
@@ -78,9 +78,12 @@ export default function ContactForm() {
           onChange={(e) => setService(e.target.value)}
         >
           <option>Web Development</option>
+          <option>Ai Solution</option>
           <option>Graphic Design</option>
           <option>SEO</option>
           <option>App Development</option>
+          <option>Video Editing</option>
+          <option>Marketing</option>
           <option>WordPress</option>
           <option>Shopify</option>
           <option>Something else</option>
