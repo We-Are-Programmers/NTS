@@ -1,5 +1,6 @@
 import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
+import Image from "next/image";
 
 export const metadata = {
   title: "About — Next Tech Soul",
@@ -76,7 +77,7 @@ export default function About() {
           <ScrollReveal className="about-media glass">
             <div className="ring r1"></div>
             <div className="ring r2"></div>
-            <img src="/assets/logo-large.webp" alt="Next Tech Soul mark" />
+            <Image src="/assets/logo-large.webp" alt="Next Tech Soul mark" width={500} height={500} />
           </ScrollReveal>
         </div>
       </section>

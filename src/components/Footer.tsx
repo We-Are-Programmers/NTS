@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -6,7 +7,7 @@ export default function Footer() {
       <div className="wrap">
         <div className="foot-row">
           <div className="foot-brand">
-            <img src="/assets/logo.webp" alt="Next Tech Soul" />
+            <Image src="/assets/logo.webp" alt="Next Tech Soul" width={40} height={40} />
             <span className="tech" style={{ fontSize: "14px" }}>
               NEXT TECH <span className="soul" style={{ fontSize: "14px" }}>Soul</span>
             </span>

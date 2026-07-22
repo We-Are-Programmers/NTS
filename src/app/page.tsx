@@ -1,6 +1,7 @@
 import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
 import TiltCard from "@/components/TiltCard";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -31,7 +32,7 @@ export default function Home() {
         <div className="hero-glass glass">
           <div className="ring r1"></div>
           <div className="ring r2"></div>
-          <img src="/assets/logo.webp" alt="Next Tech Soul mark" />
+          <Image src="/assets/logo.webp" alt="Next Tech Soul mark" width={500} height={500} />
         </div>
       </section>
 

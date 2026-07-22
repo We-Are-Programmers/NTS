@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Header() {
   const pathname = usePathname();
@@ -28,7 +29,7 @@ export default function Header() {
       <div className="wrap">
         <div className="navbar glass">
           <Link href="/" className="brand" onClick={closeMenu}>
-            <img src="/assets/logo.webp" alt="Next Tech Soul logo" />
+            <Image src="/assets/logo.webp" alt="Next Tech Soul logo" width={40} height={40} />
             <span className="brand-word tech">
               NEXT TECH <span className="soul">Soul</span>
             </span>
