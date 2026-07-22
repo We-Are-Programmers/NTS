@@ -5,9 +5,18 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Next Tech Soul - Web Development & Digital Solutions",
+  metadataBase: new URL("https://nexttechsoul.com"),
+
+  title: {
+    default: "Next Tech Soul - Web Development & Digital Solutions",
+    template: "%s | Next Tech Soul",
+  },
+
   description:
     "Nest Tech Soul delivers innovative web development, SEO services, AI solutions, digital marketing, UI/UX design, and custom technology solutions to grow your business online.",
+
+
+    
   keywords: [
   "web development",
   "website development",
@@ -77,11 +86,47 @@ export const metadata: Metadata = {
 "software company Pakistan",
 "website developer Karachi"
 ],
-  authors: [{ name: "Next Tech Soul" }],
+
+  authors: [
+    {
+      name: "Next Tech Soul",
+      url: "https://nexttechsoul.com",
+    },
+  ],
+
+  creator: "Next Tech Soul",
+  publisher: "Next Tech Soul",
+
+  category: "Technology",
+
+  
+
+ alternates: {
+  canonical: "https://nexttechsoul.com",
+  languages: {
+    "en-PK": "https://nexttechsoul.com",
+    "en-GB": "https://nexttechsoul.com",
+    "en-US": "https://nexttechsoul.com",
+    "x-default": "https://nexttechsoul.com",
+  },
+},
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+
   openGraph: {
-    title: "Next Tech Soul",
+    title: "Next Tech Soul - Web Development & Digital Solutions",
     description:
-      "Professional web and digital solutions.",
+      "Professional web development, SEO, AI solutions, digital marketing, and technology services for modern businesses.",
     url: "https://nexttechsoul.com",
     siteName: "Next Tech Soul",
     images: [
@@ -89,13 +134,37 @@ export const metadata: Metadata = {
         url: "/og-image.svg",
         width: 1200,
         height: 630,
+        alt: "Next Tech Soul Digital Solutions",
       },
     ],
     locale: "en_US",
     type: "website",
   },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Next Tech Soul - Digital Solutions",
+    description:
+      "Web development, SEO, AI solutions and digital marketing services.",
+    images: ["/og-image.svg"],
+  },
+
   icons: {
     icon: "/assets/logo.svg",
+    apple: "/assets/logo.svg",
+  },
+
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+
+  verification: {
+    google: "G-TZMWQ389GW",
+    other: {
+    "msvalidate.01": "CA308580C2EA5FF961125A9957502EDF", 
+  },
   },
 };
 
@@ -114,17 +183,23 @@ export default function RootLayout({
           rel="stylesheet"
         />
         <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              "name": "Next Tech Soul",
-              "url": "https://nexttechsoul.com",
-              "logo": "https://nexttechsoul.com/logo.png"
-            })
-          }}
-        />
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Next Tech Soul",
+      "url": "https://nexttechsoul.com",
+      "logo": "https://nexttechsoul.com/assets/logo.svg",
+      "description":
+        "Web development, SEO, AI solutions and digital marketing agency.",
+      "sameAs": [
+        "https://www.facebook.com/nexttechsoul",
+        "https://www.instagram.com/nexttechsoul"
+      ]
+    })
+  }}
+/>
       </head>
       <body>
         <div className="bg-fx"></div>
