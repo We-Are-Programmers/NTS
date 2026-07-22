@@ -30,7 +30,7 @@ export default function Contact() {
           <ScrollReveal className="contact-info">
             <div className="item">
               <div className="label">Email</div>
-              <div className="value">hello@nexttechsoul.com</div>
+              <div className="value">nexttechsoul@gmail.com</div>
             </div>
             <div className="item">
               <div className="label">Phone or WhatsApp</div>
@@ -42,7 +42,7 @@ export default function Contact() {
             </div>
             <div className="item">
               <div className="label">Working hours</div>
-              <div className="value">Mon to  Sat , 09am to 09pm PKT</div>
+              <div className="value">Mon to fri , 09am to 09pm PKT</div>
             </div>
             <div className="item">
               <div className="label">Response time</div>
