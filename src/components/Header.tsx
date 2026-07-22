@@ -29,7 +29,7 @@ export default function Header() {
       <div className="wrap">
         <div className="navbar glass">
           <Link href="/" className="brand" onClick={closeMenu}>
-            <Image src="/assets/logo.webp" alt="Next Tech Soul logo" width={40} height={40} />
+            <Image src="/assets/logo.webp" alt="Next Tech Soul logo" width={220} height={60} style={{ width: 'auto', height: '58px', objectFit: 'contain' }} priority />
             <span className="brand-word tech">
               NEXT TECH <span className="soul">Soul</span>
             </span>

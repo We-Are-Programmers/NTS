@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="wrap">
         <div className="foot-row">
           <div className="foot-brand">
-            <Image src="/assets/logo.webp" alt="Next Tech Soul" width={40} height={40} />
+            <Image src="/assets/logo.webp" alt="Next Tech Soul" width={220} height={60} style={{ width: 'auto', height: '40px', objectFit: 'contain' }} />
             <span className="tech" style={{ fontSize: "14px" }}>
               NEXT TECH <span className="soul" style={{ fontSize: "14px" }}>Soul</span>
             </span>

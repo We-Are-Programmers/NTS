@@ -77,7 +77,7 @@ export default function About() {
           <ScrollReveal className="about-media glass">
             <div className="ring r1"></div>
             <div className="ring r2"></div>
-            <Image src="/assets/logo-large.webp" alt="Next Tech Soul mark" width={500} height={500} />
+            <Image src="/assets/logo-large.webp" alt="Next Tech Soul mark" width={500} height={500} style={{ width: '100%', height: 'auto', objectFit: 'contain' }} />
           </ScrollReveal>
         </div>
       </section>
