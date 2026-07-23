@@ -16,7 +16,6 @@ export const metadata: Metadata = {
     "Nest Tech Soul delivers innovative web development, SEO services, AI solutions, digital marketing, UI/UX design, and custom technology solutions to grow your business online.",
 
 
-    
   keywords: [
   "web development",
   "website development",
@@ -149,10 +148,45 @@ export const metadata: Metadata = {
     images: ["/og-image.svg"],
   },
 
-  icons: {
-    icon: "/assets/logo.svg",
-    apple: "/assets/logo.svg",
-  },
+icons: {
+  icon: [
+    {
+      url: "/favicon-16x16.png",
+      sizes: "16x16",
+      type: "image/png",
+    },
+    {
+      url: "/favicon-32x32.png",
+      sizes: "32x32",
+      type: "image/png",
+    },
+    {
+      url: "/favicon-96x96.png",
+      sizes: "96x96",
+      type: "image/png",
+    },
+    {
+      url: "/favicon.svg",
+      type: "image/svg+xml",
+    },
+  ],
+
+  shortcut: "/favicon.ico",
+
+  apple: [
+    {
+      url: "/apple-touch-icon.png",
+      sizes: "180x180",
+    },
+  ],
+
+  other: [
+    {
+      rel: "manifest",
+      url: "/site.webmanifest",
+    },
+  ],
+},
 
   formatDetection: {
     email: false,
@@ -195,7 +229,10 @@ export default function RootLayout({
         "Web development, SEO, AI solutions and digital marketing agency.",
       "sameAs": [
         "https://www.facebook.com/nexttechsoul",
-        "https://www.instagram.com/nexttechsoul"
+        "https://www.instagram.com/nexttechsoul",
+        "https://www.tiktok.com/@nexttechsoul",
+        "https://x.com/nexttechSoul",
+        "https://www.pinterest.com/nexttechsoul/"
       ]
     })
   }}
