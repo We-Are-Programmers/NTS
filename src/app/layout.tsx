@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   },
 
   description:
-    "Nest Tech Soul delivers innovative web development, SEO services, AI solutions, digital marketing, UI/UX design, and custom technology solutions to grow your business online.",
+    "Next Tech Soul delivers innovative web development, SEO services, AI solutions, digital marketing, UI/UX design, and custom technology solutions to grow your business online.",
 
 
   keywords: [
